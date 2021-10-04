@@ -1,0 +1,31 @@
+.proyect__header{
+    box-sizing: border-box;
+    min-height: 100vh;
+
+
+}
+
+article{
+    margin: 50px 150px;
+
+    h2{
+    font-family: Mali;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #FFFFFF;
+    }
+
+    p{
+        font-family: Mali;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: $bg-3;
+    }
+}

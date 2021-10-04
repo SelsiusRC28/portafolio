@@ -1,0 +1,117 @@
+.about-svg{
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+.about__center{
+    display: block;
+    margin: 0 150px;
+
+    .about-h2{
+        font-family: Mali;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 83px;
+    
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 80px;
+    }
+    
+    .about__header{
+        display: flex;
+        align-items: center;
+
+        .about__header__div{
+            width: 50%;
+
+            .about__header-p{
+                color: $bg-3;
+                text-align: justify;
+                font-family: Mali;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .about__header-img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .about__goals{
+        margin-bottom: 100px;
+    }
+
+    .about__goals-h3{
+        font-family: Mali;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+
+        color: #FFFFFF;
+    }
+
+    .about__goals-ul{
+        list-style:none;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 15px 10px;
+        .about__goals-li{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: $bg-3;
+            list-style:none;
+        }
+    }
+
+    .about__blog{
+        display: flex;
+        margin-bottom: 100px;
+
+        .about__blog__div{
+            width: 50%;
+            .about__blog__dev__icon{
+                width: 200px;
+                display: block;
+                margin: 0px auto 20px;
+
+                .about__blog-h3{
+                    display: inline-block;
+                    font-family: Mali;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 40px;
+                    line-height: 52px;
+                    /* identical to box height */
+                    color: #FFFFFF;
+                    position: relative;
+                    top: 10px;
+                }
+            }
+        }
+
+        .about__blog-ol{
+            margin: 0;
+            padding: 0;
+            font-family: Mali;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            /* or 139% */
+            color: $bg-3;
+            margin: 0 30px;
+        }
+    }
+}
+
+

@@ -1,0 +1,67 @@
+body::-webkit-scrollbar{
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #5d6c7b;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.button-c{
+    width: 156px;
+    height: 48px;
+    mix-blend-mode: normal;
+    border: 2px solid #C1CCD4;
+    box-sizing: border-box;
+    filter: drop-shadow(6px 5px 5px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+    background: none;
+    font-family: Mali;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.button-c:hover{
+    color: $bg-1;
+    background: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px white;
+    border: none;
+}
+
+.h2-c{
+    font-family: Mali;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 83px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.p-c{
+    font-family: Mali;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: $bg-3;
+}

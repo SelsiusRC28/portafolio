@@ -1,0 +1,118 @@
+.project-h2{
+    margin-top: 30px;
+}
+
+
+.project__search-input{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    background: #192734;
+    border: 1px solid #C1CCD4;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: MalI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #C1CCD4;
+    padding-left: 80px;
+    color: $bg-3;
+    margin: 40px auto;
+
+}
+
+
+.conteiner{
+    margin: 30px 150px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    
+    .card{
+        background-color: #192734;
+        margin: 0;
+
+        .card-img{
+            width: 100%;
+        }
+
+        .card_container{
+            padding: 10px 15px;
+
+            .card-h3{
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+    
+                color: #FFFFFF;
+
+                text-align: initial;
+            }
+    
+            .card-p{
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+    
+                color: #C1CCD4;
+
+                text-align: justify;
+    
+            }
+
+            .card-button{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+       
+    }
+    
+}
+
+.search-no{
+    text-align: center;
+    color: #fff;
+    font-family: 'Mali';
+    font-weight: bold;
+    margin: 200px;
+    font-size: 40px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 300px auto;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.hide{
+    display: none;
+}

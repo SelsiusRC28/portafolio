@@ -1,0 +1,87 @@
+.home__header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+    .home__section{
+        width: 100%;
+        min-height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -50px;
+
+        .home__article__text {
+            width: 50%;
+            font-family: 'Mali', cursive;
+
+            .home__article-h1{
+                color: #fff;
+                font-family: Mali;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 96px;
+                text-align: initial;
+            }
+
+            .home__article-h2{
+                color: #fff;
+                font-family: Mali;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                text-align: initial;
+            }
+
+            .home__article-p{
+                color: $bg-3;
+                text-align: justify;
+                font-family: Mali;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+
+        .home__article__img{
+            width: 50%;
+        }
+
+        
+    }
+}
+
+.svg{
+    width: 100%;
+}
+
+.home__about{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+
+    .home__about-h2{
+        margin-bottom: 5px;
+        position: relative;
+        top: -30px;
+    }
+
+    .home__about__container{
+        display: flex;
+
+        .home__about__div{
+            width: 50%;
+            .home__about-img{
+                display: block;
+                margin: 20px auto;
+            }
+        }
+    }
+}
+
+.home_skills-img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+}

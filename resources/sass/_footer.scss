@@ -1,0 +1,98 @@
+footer{
+    background-color: $bg-1;
+    height: 380px;
+
+    .footer__conteiner1{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 150px;
+        align-items: center;
+
+        .footer__conteiner__div-h3{
+            margin: 0;
+            font-size: 22px;
+            line-height: 29px;
+            /* identical to box height */
+
+            letter-spacing: -0.3px;
+
+            color: $bg-3;
+            position: relative;
+            top: 10px;
+            left: -10px;
+
+        }
+    }
+
+    .footer__svg{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer__conteiner2{
+        display: flex;
+        margin: 0 150px;
+
+        .footer__conteiner2__form{
+            width: 300px;
+            margin-right: 100px;
+            .footer__conteiner2-h3{
+                margin: 0;
+                font-size: 22px;
+                line-height: 29px;
+                /* identical to box height */
+
+                letter-spacing: -0.3px;
+
+                color: $bg-3;
+            
+            }
+
+            .footer__conteiner-input{
+                background-color: $bg-1;
+                border: 2px solid #C1CCD4;
+                outline: none;
+                border-radius: 10px;
+                width: 289px;
+                height: 49,62px;
+                padding: 10px;
+                color: $bg-3;
+            }
+        }
+
+        .footer__conteiner2__links{
+           width: 100%;
+           
+            ul{
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                row-gap: 30px;
+                a{
+                    text-decoration: none;
+                    li{
+                        text-decoration: none;
+                        list-style:none;
+                        font-size: 18px;
+                        color: $bg-3;
+                    }
+                }
+            }
+
+           
+            
+        }
+    }
+
+    .footer__conteiner3{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 150px;
+
+        .footer__conteiner3-link{
+            font-size: 18px;
+            color: $bg-3;
+            text-decoration: none;
+        }
+    }
+}

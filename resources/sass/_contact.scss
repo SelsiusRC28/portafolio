@@ -1,0 +1,96 @@
+.contact{
+    display: block;
+    margin: 50px auto;
+    width: 830px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.0002);
+    box-sizing: border-box;
+    /* Glass */
+
+    box-shadow: 1px 1px 100px 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 50px;
+
+    
+    .contact-h2{
+        font-family: Mali;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 83px;
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.9);
+
+
+
+    }
+    
+    form{
+        padding: 30px 30px;
+        .contact-label{
+            font-family: Mali;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 47px;
+            /* identical to box height */
+    
+            text-align: center;
+    
+            color: rgba(255, 255, 255, 0.9);
+        }
+    
+        .contact-input{
+            background: #1F3340;
+            border: 2px solid #C1CCD4;
+            box-sizing: border-box;
+            width: 100%;
+            height: 40px;
+            color: $bg-3;
+            margin: 5px 0;
+            font-size: 18px;
+        }
+    
+        .contact-textarea{
+            background: #1F3340;
+            border: 2px solid #C1CCD4;
+            box-sizing: border-box;
+            width: 100%;
+            color: $bg-3;
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        
+        .invalid{
+            display: block;
+            font-family: Mali;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+    
+            color: #e3342f;
+            margin-top: -5px;
+        }
+
+        .contact-button{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    
+}
+
+.contact__icons{
+    display: block;
+    margin: 25px auto;
+    margin-bottom: 100px;
+    width: 346px;
+
+    img{
+        width: 86px;
+    }
+}
