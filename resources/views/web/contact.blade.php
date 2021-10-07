@@ -36,8 +36,8 @@
         </form>
     </div>
     <div class="contact__icons">
-        <a href=""><img src="{{asset('images/1Home/github.svg')}}" alt=""></a>
-        <a href=""><img src="{{asset('images/1Home/btc.svg')}}" alt=""></a>
-        <a href=""><img src="{{asset('images/1Home/telegram.svg')}}" alt=""></a>
+        <a target="_blank" href="https://github.com/SelsiusRC28/"><img src="{{asset('images/1Home/github.svg')}}" alt=""></a>
+        <a target="_blank" href=""><img src="{{asset('images/1Home/btc.svg')}}" alt=""></a>
+        <a target="_blank" href=""><img src="{{asset('images/1Home/telegram.svg')}}" alt=""></a>
     </div>
 @endsection

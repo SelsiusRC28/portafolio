@@ -23,7 +23,7 @@
       <option value="2" >Publicado</option>
     </select>
     <label for="">Content</label>
-    <textarea name="content" id="editor" cols="30" rows="10"  class="form-control">{{$project->content}}</textarea>
+    <textarea name="content" id="mytextarea" cols="30" rows="30"  class="form-control">{{$project->content}}</textarea>
     <button class="btn btn-primary btn-lg btn-block mt-2" type="submit">Editar</button>
   </form>
 @stop 
@@ -33,13 +33,14 @@
 @stop
 
 @section('js')
-<script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js" ></script>
+<script src="https://cdn.tiny.cloud/1/fyhvxv7jf1moyzmaecs1qcv5funfhkd56c0qf5xdaurx71no/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <script>
-  ClassicEditor
-      .create( document.querySelector( '#editor' ) )
-      .catch( error => {
-          console.error( error );
-      } );
+ tinymce.init({
+    selector: '#mytextarea',
+    plugins: 'pageembed',
+    menubar: 'view',
+    toolbar: 'pageembed'
+  });
 </script>
 
 @stop

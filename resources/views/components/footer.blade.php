@@ -8,18 +8,15 @@
     </div>
     <img src="{{asset('images/1Home/Divider.svg')}}" alt="" class="footer__svg">
     <div class="footer__conteiner2 mt-5">
-        <div class="footer__conteiner2__form">
-            <h3 class="footer__conteiner2-h3 mb-2">Receive the latest updates:</h3>
-            <input type="text" placeholder="Email address" class="footer__conteiner-input">
-        </div>
+
         <div class="footer__conteiner2__links">
             <ul >
-                <a href=""><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Projects</li></a>
-                <a href=""><li>Contact</li></a>
-                <a href=""><li>Login</li></a>
-                <a href=""><li>Register</li></a>
+                <a class="{{request()->routeIs('home') ? 'nav__link--active' : ''}}" href="{{route('home')}}"><li>Home</li></a>
+                <a class="{{request()->routeIs('about') ? 'nav__link--active' : ''}}" href="{{route('about')}}"><li>About</li></a>
+                <a class="{{request()->routeIs('proyects') ? 'nav__link--active' : ''}}" href="{{route('proyects')}}"><li>Projects</li></a>
+                <a class="{{request()->routeIs('contact') ? 'nav__link--active' : ''}}" href="{{route('contact')}}"><li>Contact</li></a>
+                <a class="{{request()->routeIs('login') ? 'nav__link--active' : ''}}" href="{{route('login')}}"><li>Login</li></a>
+                <a class="{{request()->routeIs('register') ? 'nav__link--active' : ''}}" href="{{route('register')}}"><li>Register</li></a>
             </ul>
         </div>
     </div>
@@ -29,9 +26,9 @@
             <a href="" class="footer__conteiner3-link">Privacy Policy</a>   
         </div>
         <div>
-            <a href=""><img src="{{asset('images/1Home/github.svg')}}" alt=""></a>
-            <a href=""><img src="{{asset('images/1Home/btc.svg')}}" alt=""></a>
-            <a href=""><img src="{{asset('images/1Home/telegram.svg')}}" alt=""></a>
+            <a target="_blank" href="https://github.com/SelsiusRC28/" ><img src="{{asset('images/1Home/github.svg')}}" alt=""></a>
+            <a target="_blank" href=""><img src="{{asset('images/1Home/btc.svg')}}" alt=""></a>
+            <a target="_blank" shref=""><img src="{{asset('images/1Home/telegram.svg')}}" alt=""></a>
         </div>
     </div>
     
