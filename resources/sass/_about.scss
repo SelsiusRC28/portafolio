@@ -115,3 +115,84 @@
 }
 
 
+@media screen and (max-width: 1200px){
+    .about__center{
+        .about__header{
+            display : block;
+    
+            .about__header__div{
+                width: 100%;
+    
+                .about__header-p{
+                    color: $bg-3;
+                    text-align: justify;
+                    font-family: Mali;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                .about__header-img{
+                    display: block;
+                    margin: -100px auto 0;
+                    width: 80%;
+                }
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 640px){
+    .about__center{
+        display: block;
+        margin: 0 10px;
+
+        .about__goals-ul{
+            margin: 0;
+            display: block;
+            .about__goals-li{
+                padding: 10px;
+            }
+        }
+
+        .about__blog{
+            display: block;
+            margin-bottom: 100px;
+    
+            .about__blog__div{
+                width: 100%;
+                .about__blog__dev__icon{
+                    width: 200px;
+                    display: block;
+                    margin: 0px auto 20px;
+    
+                    .about__blog-h3{
+                        display: inline-block;
+                        font-family: Mali;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 40px;
+                        line-height: 52px;
+                        /* identical to box height */
+                        color: #FFFFFF;
+                        position: relative;
+                        top: 10px;
+                    }
+                }
+            }
+    
+            .about__blog-ol{
+                margin: 0;
+                padding: 0;
+                font-family: Mali;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 25px;
+                /* or 139% */
+                color: $bg-3;
+                margin: 0 30px;
+            }
+        }
+    }
+}

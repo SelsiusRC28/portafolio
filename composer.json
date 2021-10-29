@@ -16,6 +16,7 @@
         "laravel/ui": "^3.3",
         "livewire/livewire": "^2.6",
         "s-ichikawa/laravel-sendgrid-driver": "~2.0",
+        "spatie/laravel-permission": "^5.1",
         "turahe/laravel-counters": "@dev"
     },
     "require-dev": {

@@ -101,3 +101,15 @@ article{
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 1000px){
+    article{
+        margin: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    article{
+        margin: 50px 50px;
+    }
+}

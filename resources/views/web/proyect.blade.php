@@ -15,6 +15,5 @@
     <article>
         
             <p> {!!$project->content!!}</p>
-       
     </article>
 @endsection

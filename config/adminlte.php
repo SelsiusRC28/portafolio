@@ -237,21 +237,13 @@ return [
         ],
 
         // Sidebar items:
-        [
-            'type' => 'sidebar-menu-search',
-            'text' => 'search',
-        ],
+      
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-        [
-            'text'        => 'CRUD Projects',
-            'url'         => 'dashboard/projects',
-            'icon'        => 'far fa-fw fa-file',
-            'label_color' => 'success',
-        ],
+    
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
@@ -301,22 +293,18 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
+        ['header' => 'ADMIN'],
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
+            'text'        => 'CRUD Projects',
+            'url'         => 'dashboard/projects',
+            'icon'        => 'fas fa-fw fa-lock',
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
+            'text' => 'change_password',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-lock',
         ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+
     ],
 
     /*

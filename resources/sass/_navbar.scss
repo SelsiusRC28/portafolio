@@ -6,6 +6,8 @@ nav{
     position: sticky;
     z-index: 999;
     top: 0;
+    list-style:none;
+    text-decoration: none;
 
     .nav__content{
         margin: 0 150px;
@@ -64,3 +66,69 @@ body{
     background: $bg-2;
 }
 
+
+// Responsive
+
+.dropdown-btn{
+    background: none;
+    border: none;
+    display: none;
+}
+
+.dropdown-links{
+    display: none;
+    background : $bg-1;
+    .dropdown-links-ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        .dropdown-links-li{
+            list-style:none;
+            text-decoration: none;
+            font-family: Mali;
+            color: $bg-3;
+            font-size: 25px;
+            line-height: 21px;
+            padding: 20px;
+        }
+    }
+}
+
+.show{
+    display: block;
+}
+
+@media screen and (max-width: 1200px){
+    
+    .dropdown-btn{
+        background: none;
+        border: none;
+        display: block;
+    }
+
+    .nav__links, .nav__login{
+        display: none !important;
+
+    }
+}
+
+@media screen and (max-width: 640px){
+    .img-fluid {
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    .nav__content {
+        margin: 0 50px !important;
+        height: 100px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (max-width: 360px){
+    span{
+        display: none !important;
+    }
+}

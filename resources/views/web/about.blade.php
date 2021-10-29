@@ -22,24 +22,24 @@
         <h3 class="about__goals-h3 mb-3">Goals:</h3>
         <ul class="about__goals-ul">
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit.
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit.
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit.
             </li>
 
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit.
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit.
             </li>
             <li class="about__goals-li">

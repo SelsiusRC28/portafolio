@@ -1,9 +1,9 @@
 <footer>
     <div class="footer__conteiner1 mb-2">
         <img src="{{asset('images/1Home/logo.png')}}" alt="" class="footer__conteiner1-img">
+        <h3 class="footer__conteiner__div-h3">Your are Sign in?</h3>
         <div class="footer__conteiner__div d-flex">
-            <h3 class="footer__conteiner__div-h3">Your are Sign in?</h3>
-            <a href=""><button class="button-c">Click here</button></a>
+            <a class="button-center" href=""><button class="button-c button-center">Click here</button></a>
         </div>
     </div>
     <img src="{{asset('images/1Home/Divider.svg')}}" alt="" class="footer__svg">
@@ -21,11 +21,11 @@
         </div>
     </div>
     <div class="footer__conteiner3 mt-5 mb-5">
-        <div>
+        <div class="footer__terms">
             <a href="" class="footer__conteiner3-link mr-4">Terms & Conditions</a>
             <a href="" class="footer__conteiner3-link">Privacy Policy</a>   
         </div>
-        <div>
+        <div class="footer__icons">
             <a target="_blank" href="https://github.com/SelsiusRC28/" ><img src="{{asset('images/1Home/github.svg')}}" alt=""></a>
             <a target="_blank" href=""><img src="{{asset('images/1Home/btc.svg')}}" alt=""></a>
             <a target="_blank" shref=""><img src="{{asset('images/1Home/telegram.svg')}}" alt=""></a>

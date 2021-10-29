@@ -44,7 +44,7 @@ Route::middleware(['auth'])->group(function () {
         return view('dashboard.index');
     })->name('dashboard.index');
 
-    Route::resource('dashboard/projects',  ProyectController::class)->except('show');
+    Route::resource('dashboard/projects',  ProyectController::class)->except('show')->name('*', 'admin.projects')->middleware('can:admin.projects');
     
 });
 

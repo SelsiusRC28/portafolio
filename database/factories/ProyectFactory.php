@@ -32,7 +32,7 @@ class ProyectFactory extends Factory
             'content' => $this->faker->text(5000),
             'slug' => Str::slug($name),
             'status' => $this->faker->randomElement([1, 2]),
-            'user_id' => User::all()->random()->id
+            'user_id' => 1
 
         ];
     }

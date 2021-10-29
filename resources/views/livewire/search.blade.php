@@ -4,10 +4,10 @@
         background-position: 20px center;" wire:model="search" >
     </div>
     @if ($projects->count())
-    <div class="lds-dual-ring" id="preloader" ></div>
-        <div class="conteiner hide" id="conteiner">
+    <div class="lds-dual-ring" id="preloader" wire:loading.block></div>
+        <div class="conteiner" id="conteiner" >
             @foreach ($projects as $project)
-                <div class="card">
+                <div class="card" >
                     <img src="{{asset('storage/proyects/'.$project->img)}}" alt="" class="card-img" >
                     <div class="card_container">
                         <h3 class="card-h3">{{$project->title}}</h3>
@@ -23,10 +23,5 @@
             <h3 class="search-no">There is no matching project.</h3>
         @endif
       
-        <script>
-            window.addEventListener('load',function(){
-            document.getElementById('preloader').classList.add('hide');
-            document.getElementById('conteiner').classList.remove('hide');
-            });  
-         </script>
+        
 </div>

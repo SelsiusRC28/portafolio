@@ -19,7 +19,10 @@ class DatabaseSeeder extends Seeder
         Storage::deleteDirectory('public/proyects');
         Storage::makeDirectory('public/proyects');
 
-
+        
+        
+        $this->call(RoleSeeder::class);
+        $this->call(UserSeeder::class);
         \App\Models\User::factory(10)->create();
 
         Proyect::factory(5)->create();
