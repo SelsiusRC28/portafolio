@@ -13,7 +13,17 @@
         </div>
     </header>
     <article>
-        
             <p> {!!$project->content!!}</p>
     </article>
+    <img src="{{asset('images/1Home/comments-separation.svg')}}" alt="" class="comments-separation">
+    <x-comments >
+        <textarea name="" id="" cols="30" rows="10" class="comments__textarea-text"></textarea>
+        <button class="button-c mt-3">Public</button>
+    </x-comments>
+    <x-comments >
+        
+    </x-comments>
+    <x-comments >
+        
+    </x-comments>
 @endsection
