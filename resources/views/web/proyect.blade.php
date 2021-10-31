@@ -16,14 +16,14 @@
             <p> {!!$project->content!!}</p>
     </article>
     <img src="{{asset('images/1Home/comments-separation.svg')}}" alt="" class="comments-separation">
-    <x-comments >
-        <textarea name="" id="" cols="30" rows="10" class="comments__textarea-text"></textarea>
-        <button class="button-c mt-3">Public</button>
-    </x-comments>
-    <x-comments >
+    
+    @if (Auth::user())
+        @livewire('comments', ['project' => $project->id, 'user' => Auth::user()->id ])
+        @livewire('render-comments')
+    @else
+       <a href="{{route('login')}}"> <button class="button-c button-center my-5">Login to write a comment</button></a>
+    @endif
+    @livewire('render-comments', ['project' => $project->id ])
         
-    </x-comments>
-    <x-comments >
-        
-    </x-comments>
+
 @endsection

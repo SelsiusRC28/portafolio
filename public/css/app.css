@@ -10030,7 +10030,8 @@ body {
 }
 
 .button-c {
-  width: 156px;
+  min-width: 156px;
+  width: auto;
   height: 48px;
   mix-blend-mode: normal;
   border: 2px solid #C1CCD4;
@@ -10044,6 +10045,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #fff;
+  background: #192734;
 }
 
 .button-center {
@@ -10764,6 +10766,35 @@ article img, article iframe {
   height: 140px;
   display: block;
 }
+.comments .comments__container .comments__textarea .comments__textarea-div {
+  background: rgba(255, 255, 255, 0.02);
+  /* Shadow */
+  box-shadow: 1px 1px 100px 5px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+  padding: 20px;
+  border: none;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.comments .comments__container .comments__textarea .comments__textarea-div .comments__textarea-div-p {
+  color: #C1CCD4;
+  font-family: Mali;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.error {
+  color: #e3342f;
+  font-family: Mali;
+  font-size: 18px;
+  display: block;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 1000px) {
   article {
@@ -10773,6 +10804,10 @@ article img, article iframe {
 @media screen and (max-width: 600px) {
   article {
     margin: 50px 50px;
+  }
+
+  .comments {
+    margin: 50px 50px !important;
   }
 }
 .contact {
