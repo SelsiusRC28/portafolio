@@ -17,7 +17,7 @@ class CreateCommentsTable extends Migration
             $table->id();
 
             $table->text('content');
-            $table->integer('likes');
+            $table->integer('likes')->nullable();
 
             $table->unsignedBigInteger('proyect_id');
             $table->foreign('proyect_id')->references('id')->on('proyects')->onDelete('cascade');

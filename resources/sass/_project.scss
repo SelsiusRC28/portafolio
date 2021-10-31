@@ -4,7 +4,7 @@
 
     .proyect__header-img{
         background: rgba(0, 0, 0, 0.2);
-        filter: blur(10px);
+        filter: blur(20px);
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -102,14 +102,99 @@ article{
     }
 }
 
+// Comments
+.comments-separation{
+    width: 100%
+}
+
+.comments{
+    margin: 50px 100px;
+    .comments__container{
+        display: flex;
+        height: auto;
+        .comments__img{
+            display: block;
+            margin: auto 0;
+            .comments__img-name{
+                width: 50px;
+                display: block;
+                 margin: 0 auto;
+                font-size: 18px;
+                font-family: Mali;
+                color: #fff;
+            }
+        }
+        .comments__textarea{
+            margin-left: 20px;
+            width: 100%;
+            .comments__textarea-text{
+                background: rgba(255, 255, 255, 0.02);
+                /* Shadow */
+
+                box-shadow: 1px 1px 100px 5px rgba(0, 0, 0, 0.25);
+                backdrop-filter: blur(15px);
+                /* Note: backdrop-filter has minimal browser support */
+
+                border-radius: 5px;
+
+                color: $bg-3;
+                font-family: Mali;
+                font-size: 18px;
+
+                padding: 20px;
+                border: none;
+                width: 100%;
+                height: 140px;
+                display: block;
+            }
+            .comments__textarea-div{
+                background: rgba(255, 255, 255, 0.02);
+                /* Shadow */
+
+                box-shadow: 1px 1px 100px 5px rgba(0, 0, 0, 0.25);
+                backdrop-filter: blur(15px);
+                /* Note: backdrop-filter has minimal browser support */
+
+                border-radius: 5px;
+                padding: 20px;
+                border: none;
+                width: 100%;
+                height: auto;
+                display: block;
+                .comments__textarea-div-p{
+                    color: $bg-3;
+                    font-family: Mali;
+                    font-size: 18px;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+       
+    }
+}
+
+.error{
+    color: #e3342f;
+    font-family: Mali;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1000px){
     article{
         margin: 50px 100px;
     }
+    
 }
 
 @media screen and (max-width: 600px){
     article{
         margin: 50px 50px;
+    }
+
+    .comments{
+        margin: 50px 50px !important;
     }
 }
