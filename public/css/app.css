@@ -10031,8 +10031,7 @@ body {
 
 .button-c {
   min-width: 156px;
-  width: auto;
-  height: 48px;
+  min-height: 48px;
   mix-blend-mode: normal;
   border: 2px solid #C1CCD4;
   box-sizing: border-box;
@@ -10045,7 +10044,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #fff;
-  background: #192734;
 }
 
 .button-center {
@@ -10272,7 +10270,7 @@ body {
   margin: 0 auto;
   position: relative;
   top: -80px;
-  width: 80%;
+  width: 70%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -10640,7 +10638,7 @@ body {
 }
 .proyect__header .proyect__header-img {
   background: rgba(0, 0, 0, 0.2);
-  filter: blur(10px);
+  filter: blur(20px);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
