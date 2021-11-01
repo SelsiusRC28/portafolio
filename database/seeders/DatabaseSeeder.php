@@ -23,10 +23,10 @@ class DatabaseSeeder extends Seeder
         
         $this->call(RoleSeeder::class);
         $this->call(UserSeeder::class);
-        \App\Models\User::factory(10)->create();
+        // \App\Models\User::factory(10)->create();
 
-        Proyect::factory(5)->create();
+        // Proyect::factory(5)->create();
 
-        Comment::factory(20)->create();
+        // Comment::factory(20)->create();
     }
 }
