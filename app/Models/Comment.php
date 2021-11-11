@@ -12,10 +12,10 @@ class Comment extends Model
     
 
     public function proyect(){
-        $this->belongTo(Proyect::class);
+        return $this->belongTo(Proyect::class);
     }
 
     public function user(){
-        $this->belongsTo(User::class);
+        return $this->belongsTo(User::class);
     }
 }

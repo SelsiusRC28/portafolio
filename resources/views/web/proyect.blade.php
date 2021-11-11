@@ -13,7 +13,17 @@
         </div>
     </header>
     <article>
-        
             <p> {!!$project->content!!}</p>
     </article>
+    <img src="{{asset('images/1Home/comments-separation.svg')}}" alt="" class="comments-separation">
+    
+    @if (Auth::user())
+        @livewire('comments', ['project' => $project->id, 'user' => Auth::user()->id ])
+        @livewire('render-comments')
+    @else
+       <a href="{{route('login')}}"> <button class="button-c button-center my-5">Login to write a comment</button></a>
+    @endif
+    @livewire('render-comments', ['project' => $project->id ])
+        
+
 @endsection

@@ -1,9 +1,9 @@
 <footer>
     <div class="footer__conteiner1 mb-2">
         <img src="{{asset('images/1Home/logo.png')}}" alt="" class="footer__conteiner1-img">
-        <h3 class="footer__conteiner__div-h3">Your are Sign in?</h3>
+        <h3 class="footer__conteiner__div-h3">You are Sign in?</h3>
         <div class="footer__conteiner__div d-flex">
-            <a class="button-center" href=""><button class="button-c button-center">Click here</button></a>
+            <a class="button-center" href="{{route('login')}}"><button class="button-c button-center">Click here</button></a>
         </div>
     </div>
     <img src="{{asset('images/1Home/Divider.svg')}}" alt="" class="footer__svg">

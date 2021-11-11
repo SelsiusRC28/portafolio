@@ -75,6 +75,7 @@ class ProyectController extends Controller
     {
         $project = Proyect::where('slug','=', $slug)->firstOrFail();
         
+
         return view('web.proyect',['project' => $project]);
 
     }
