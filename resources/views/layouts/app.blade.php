@@ -10,11 +10,11 @@
     <title>@yield('title')</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Meta-->
-    <link rel="icon" href="{{asset('images/1Home/logo.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{secure_asset('images/1Home/logo.png')}}" type="image/x-icon">
 
     <!-- Fonts -->
     <!-- Raleway -->
@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
     @livewireStyles
 </head>
