@@ -14,9 +14,9 @@
     <label for="">Title:</label>
     <input type="text" class="form-control" name="title" value="{{$project->title}}">
     <label for="">Image:</label>
-    <input type="file" class="form-control-file" name="img">
+    <input type="text" class="form-control" name="img">
     <label for="">Description:</label>
-    <input type="text" class="form-control-file" name="description" value="{{$project->description}}">
+    <input type="text" class="form-control" name="description" value="{{$project->description}}">
     <label for="">Status</label>
     <select id="cars" class="form-control" name="status">
       <option value="1" >Borrador</option>

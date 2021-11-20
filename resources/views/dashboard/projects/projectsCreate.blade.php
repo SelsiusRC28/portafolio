@@ -13,7 +13,7 @@
     <label for="">Title:</label>
     <input type="text" class="form-control" name="title" >
     <label for="">Image:</label>
-    <input type="file" class="form-control-file" name="img">
+    <input type="text" class="form-control" name="img">
     <label for="">Description:</label>
     <input type="text" class="form-control-file" name="description">
     <label for="">Status</label>

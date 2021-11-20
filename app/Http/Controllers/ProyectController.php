@@ -48,16 +48,13 @@ class ProyectController extends Controller
         $project = new Proyect();
         $project->title = $request->title;
         $project->slug = Str::slug($request->title);
-        $project->img = $request->file('img')->store('/');
+        $project->img = $request->img;
         $project->description = $request->description;
         $project->content = $request->content;
         $project->status = $request->status;
 
         $project->user_id = 1;
 
-        if($request->hasFile('img')){
-            $request->file('img')->store('proyects','public');
-        }
 
         // return $request;
         $project->save();
@@ -103,16 +100,14 @@ class ProyectController extends Controller
         $project = Proyect::find($id);
         $project->title = $request->title;
         $project->slug = Str::slug($request->title);
-        $project->img = $request->file('img')->store('/');
+        $project->img = $request->img;
         $project->description = $request->description;
         $project->content = $request->content;
         $project->status = $request->status;
 
         $project->user_id = 1;
 
-        if($request->hasFile('img')){
-            $request->file('img')->store('proyects','public');
-        }
+      
 
         // return $request;
         $project->save();

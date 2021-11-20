@@ -26,7 +26,7 @@
             <th scope="row">{{$project->id}}</th>
             <td>{{$project->users->name}}</td>
             <td>{{$project->title}}</td>
-            <td><img src="{{asset('storage/proyects/'.$project->img)}}" alt="" width="250px"></td>
+            <td><img src="{{$project->img}}" alt="" width="250px"></td>
             <td>{{$project->description}}</td>
             <td>{{$project->status}}</td>
             <td>
