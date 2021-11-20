@@ -13,7 +13,9 @@
         </div>
     </header>
     <article>
-            <p> {!!$project->content!!}</p>
+            <x-markdown>
+                {!!$project->content!!}
+            </x-markdown>
     </article>
     <img src="{{asset('images/1Home/comments-separation.svg')}}" alt="" class="comments-separation">
     
