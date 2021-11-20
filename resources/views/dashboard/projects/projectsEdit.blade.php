@@ -30,17 +30,14 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 @stop
 
 @section('js')
-<script src="https://cdn.tiny.cloud/1/fyhvxv7jf1moyzmaecs1qcv5funfhkd56c0qf5xdaurx71no/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
 <script>
- tinymce.init({
-    selector: '#mytextarea',
-    plugins: 'pageembed',
-    menubar: 'view',
-    toolbar: 'pageembed'
-  });
-</script>
+  var simplemde = new SimpleMDE({ element: document.getElementById("mytextarea") });
+  </script>
 
 @stop
