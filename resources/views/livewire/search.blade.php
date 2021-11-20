@@ -8,7 +8,7 @@
         <div class="conteiner" id="conteiner" >
             @foreach ($projects as $project)
                 <div class="card" >
-                    <img src="{{asset('storage/proyects/'.$project->img)}}" alt="" class="card-img" >
+                    <img src="{{$project->img}}" alt="" class="card-img" >
                     <div class="card_container">
                         <h3 class="card-h3">{{$project->title}}</h3>
                         <p class="card-p">{{ $project->description }}</p>
