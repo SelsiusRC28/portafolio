@@ -29,6 +29,24 @@
     <!-- Styles -->
     <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
+    {{-- SEO --}}
+    <meta name="description" content="Hola bienvenid@ a mi Portafolio, soy Erick, Desarrollador Web">
+    <link rel="favicon" href="{{secure_asset('images/1Home/logo.png')}}">
+    <link rel="apple-touch-icon"
+        href="{{secure_asset('images/1Home/logo.png')}}">
+    <meta name="theme-color" content="#192734">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:title" name="twitter:title" content="Portafolio - Erick">
+    <meta property="og:description" name="twitter:description"
+        content="Hola bienvenid@ a mi Portafolio, soy Erick, Desarrollador Web">
+    <meta property="og:image" name="twitter:image"
+        content="{{secure_asset('images/1Home/header.png')}}">
+    <meta property="og:url" name="twitter:url"
+        content="https://erickdeveloper.herokuapp.com/">
+    
+        <link rel="canonical" href="https://erickdeveloper.herokuapp.com/">
+
     @livewireStyles
 </head>
 <body>

@@ -9,7 +9,7 @@
         <img src="{{ $project->img}}" alt="" class="proyect__header-img">
         <h2 class="proyect__header-h2">{{$project->title}}</h2>
         <div class="proyect_header__img">
-            <img src="{{$project->img}}" alt="" class="proyect_header__img-img">
+            <img src="{{$project->img}}" alt="{{$project->title}}" class="proyect_header__img-img">
         </div>
     </header>
     <article>

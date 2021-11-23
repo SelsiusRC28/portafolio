@@ -8,11 +8,11 @@
         <section class="home__section">
             <article class="home__article__text">
                 <h1 class="home__article-h1">Hi am Erick</h1>
-                <h2 class="home__article-h2">Backend Developer</h2>
+                <h2 class="home__article-h2">Full Stack Developer</h2>
                 <p class="home__article-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque consequuntur nemo cupiditate quos commodi ducimus voluptate eum soluta suscipit molestiae molestias ipsam, ex consequatur nostrum nobis. Doloremque porro dolor magni!</p>
             </article>
             <article class="home__article__img">
-                <img src="{{asset('images/1Home/vue.png')}}" alt="">
+                <img src="{{asset('images/1Home/vue.png')}}" alt="vue logo erickdeveloper">
             </article>
         </section>
     </header>
@@ -32,6 +32,6 @@
     <img src="{{asset('images/1Home/Vector2.svg')}}" alt="" class="svg">
     <section>
         <h2 class="h2-c text-center mt-4 home__skills-h2">Skills</h2>
-        <img src="{{asset('images/1Home/skills.png')}}" alt="" class="home_skills-img">
+        <img src="{{asset('images/1Home/skills.png')}}" alt="vue laravel full stack erick developer" class="home_skills-img">
     </section>
 @endsection
