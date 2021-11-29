@@ -1,6 +1,7 @@
 .proyect__header{
     box-sizing: border-box;
     min-height: 100vh;
+    background: rgba(31, 51, 64, 0.6);
 
     .proyect__header-img{
         background: rgba(0, 0, 0, 0.2);
@@ -11,6 +12,7 @@
         height: 100%;
         position: absolute;
         z-index: -1;
+        object-fit: cover;
         width: 100%;
     }
 

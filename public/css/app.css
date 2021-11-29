@@ -10531,12 +10531,13 @@ body {
 .conteiner {
   margin: 30px 150px 100px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 25% 25% 25% 25%;
   gap: 30px;
 }
 .conteiner .card {
   background-color: #192734;
   margin: 0;
+  align-self: flex-start;
 }
 .conteiner .card .card-img {
   width: 100%;
@@ -10618,6 +10619,16 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .conteiner {
+    grid-template-columns: 33% 33% 33% !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .conteiner {
+    grid-template-columns: 50% 50% !important;
+  }
+}
 @media screen and (max-width: 850px) {
   .project__search-input {
     width: 90% !important;
@@ -10625,6 +10636,11 @@ body {
 
   .conteiner {
     margin: 30px 20px 100px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .conteiner {
+    grid-template-columns: 100% !important;
   }
 }
 @media screen and (max-width: 400px) {
@@ -10635,6 +10651,7 @@ body {
 .proyect__header {
   box-sizing: border-box;
   min-height: 100vh;
+  background: rgba(31, 51, 64, 0.6);
 }
 .proyect__header .proyect__header-img {
   background: rgba(0, 0, 0, 0.2);
@@ -10645,6 +10662,8 @@ body {
   height: 100%;
   position: absolute;
   z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .proyect__header .proyect__header-h2 {
@@ -10993,6 +11012,7 @@ footer {
   height: auto;
   position: relative;
   top: 40px;
+  padding-bottom: 1px;
 }
 footer .footer__conteiner1 {
   display: flex;

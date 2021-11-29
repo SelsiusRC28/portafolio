@@ -5,12 +5,7 @@
     <div class="about__header">
         <div class="about__header__div" >
             <p class="about__header-p p-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                magna nisi eu congue tristique tellus congue. Gravida elit ipsum
-                id egestas massa ac amet, nunc massa. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Amet magna nisi eu congue
-                tristique tellus congue. Gravida elit ipsum id egestas massa ac
-                amet, nunc massa.
+                Me llamo Erick y soy Full Stack Developer, me encanta programar y crear cosas muy dificiles porque me gusta aprender, llevo varios años desarrollando software y cada vez encuentro mas cosas nuevas por eso me encanta esta profesion. :)
             </p>
         </div>
         <div class="about__header__div " >
@@ -19,36 +14,27 @@
     </div>
 
     <div class="about__goals">
-        <h3 class="about__goals-h3 mb-3">Goals:</h3>
+        <h3 class="about__goals-h3 mb-3">Hobbies:</h3>
         <ul class="about__goals-ul">
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Jugar Ajedrez
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Programar cosas nuevas
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Crear contenido audiovisual
             </li>
 
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Enseñar lo que aprendo
             </li>
             <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
-            </li>
-            <li class="about__goals-li">
-                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" />Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.
+                <img src="{{ asset('images/1Home/about-star.svg') }}" alt="" class="pr-1"/>Practicar deportes
             </li>
         </ul>
     </div>
-    <h3 class="about__goals-h3 mb-3">Blog:</h3>
+    <h3 class="about__goals-h3 mb-3">Proximamente...</h3>
     <div class="about__blog">
         <div class="about__blog__div">
             <div class="about__blog__dev__icon">
@@ -57,20 +43,9 @@
             </div>
             <ol class="about__blog-ol">
                 <li>
-                    Amet sit egestas senectus habitant convallis dictum nec.
-                    Sit felis pellentesque molestie bibendum imperdiet.
-                    Ipsum phare
+                    
                 </li>
-                <li>Odio eros nullam sed egestas.</li>
-                <li>
-                    Aliquam nunc enim, pulvinar turpis lectus cras pretium,
-                    diam amet.
-                </li>
-                <li>
-                    In pellentesque pharetra condimentum fusce ac non in.
-                    Auctor consectetur quam lacus, eget adipiscing
-                    sollicitudin.
-                </li>
+                
             </ol>
         </div>
         <div class="about__blog__div">
@@ -80,20 +55,8 @@
             </div>
             <ol class="about__blog-ol">
                 <li>
-                    Amet sit egestas senectus habitant convallis dictum nec.
-                    Sit felis pellentesque molestie bibendum imperdiet.
-                    Ipsum phare
-                </li>
-                <li>Odio eros nullam sed egestas.</li>
-                <li>
-                    Aliquam nunc enim, pulvinar turpis lectus cras pretium,
-                    diam amet.
-                </li>
-                <li>
-                    In pellentesque pharetra condimentum fusce ac non in.
-                    Auctor consectetur quam lacus, eget adipiscing
-                    sollicitudin.
-                </li>
+                    
+                </li> 
             </ol>
         </div>
     </div>

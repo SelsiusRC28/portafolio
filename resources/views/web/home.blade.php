@@ -9,7 +9,7 @@
             <article class="home__article__text">
                 <h1 class="home__article-h1">Hi am Erick</h1>
                 <h2 class="home__article-h2">Full Stack Developer</h2>
-                <p class="home__article-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque consequuntur nemo cupiditate quos commodi ducimus voluptate eum soluta suscipit molestiae molestias ipsam, ex consequatur nostrum nobis. Doloremque porro dolor magni!</p>
+                <p class="home__article-p">Bienvenido a mi portafolio, podrás revisar mis mejores proyectos y las formas de contactarme.</p>
             </article>
             <article class="home__article__img">
                 <img src="{{asset('images/1Home/vue.png')}}" alt="vue logo erickdeveloper">
@@ -21,7 +21,7 @@
         <h2 class="home__about-h2 h2-c">About me</h2>
         <div class="home__about__container">
             <div class="home__about__div p-5 ">
-                <p class="home__about-p p-c ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet magna nisi eu congue tristique tellus congue. Gravida elit ipsum id egestas massa ac amet, nunc massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet magna nisi eu congue tristique tellus congue. Gravida elit ipsum id egestas massa ac amet, nunc massa. </p>
+                <p class="home__about-p p-c ">Me llamo Erick y soy Full Stack Developer, me encanta programar y crear cosas muy dificiles porque me gusta aprender, llevo varios años desarrollando software y cada vez encuentro mas cosas nuevas por eso me encanta esta profesion. :)</p>
                 <a href=""><button class="button-c button-center mt-3"> More...</button></a>
             </div>
             <div class="home__about__div">
